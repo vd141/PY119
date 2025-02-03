@@ -6,4 +6,7 @@ def smaller_numbers_than_current(numbers):
     and place the answer in a list. return the resulting list
 
     only count unique values
+
+    some text here
     '''
+
