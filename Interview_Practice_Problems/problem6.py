@@ -26,7 +26,6 @@ def count_letters(a_string):
     for char in a_string:
         if char.isalpha() and char.lower() == char:
             count_dict[char] = count_dict.get(char, 0) + 1
-
     return count_dict
 
 
@@ -45,3 +44,6 @@ print(count_letters('W. E. B. Du Bois') == expected)
 print(count_letters('x') == {'x': 1})
 print(count_letters('') == {})
 print(count_letters('!!!') == {})
+
+# first pass (2/3/2025) final time: 10 mins
+
